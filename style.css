@@ -215,9 +215,9 @@ Section 2- About me
   width: 50%;
   margin: auto;
   padding: 10px;
-  background-color: #febd01;
 }
 .info li span {
+  padding: 5px;
   font-size: 14px;
   color: lightgrey;
 }
