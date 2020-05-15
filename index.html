@@ -36,8 +36,9 @@
                     <h2>Welcome to my Website</h2>
                 </div>
                 <div class="name-top">
-                   <h1>I'M Sujan Bhattarai</h1>
+                   <h1>I'M <span class="type"></span></h1>
                 </div>
+                <script src="typed.js"></script>
                 <button class="cv">DOWNLOAD CV</button>       
             </div>
         </div>   
@@ -251,7 +252,12 @@
                 $('.menu').toggleClass("show");
                     });
             console.log("vayo")
-            
+            var typed = new Typed('.type', {
+                strings: ['Sujan Bhattarai','Web Developer', 'Computer Engineer','Coder'],
+                typeSpeed :60,
+                backSpeed :60,
+                loop :true,
+            });
         </script> 
 </html>
 
